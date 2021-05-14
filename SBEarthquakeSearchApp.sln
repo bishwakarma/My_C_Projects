@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBEarthquakeSearchApp.Android", "SBEarthquakeSearchApp\SBEarthquakeSearchApp.Android\SBEarthquakeSearchApp.Android.csproj", "{3E18500F-6430-408F-85BD-54111EBC6340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBEarthquakeSearchApp", "SBEarthquakeSearchApp\SBEarthquakeSearchApp\SBEarthquakeSearchApp.csproj", "{72A289A3-C5A9-49D0-8ECC-D1549AE00662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E18500F-6430-408F-85BD-54111EBC6340}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A289A3-C5A9-49D0-8ECC-D1549AE00662}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {616CBEAA-5A4A-47EC-B555-BEEE28AA16F5}
+	EndGlobalSection
+EndGlobal

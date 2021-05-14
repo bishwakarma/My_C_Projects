@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SBEarthquakeSearchApp.MainPage">
+
+    <StackLayout>
+        <Label Text="Sunil's Earthquake Search"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="25"
+               VerticalOptions="CenterAndExpand"
+               Margin="10"
+               BackgroundColor="BurlyWood"
+               />
+        
+        <Label Text="Earthquake Between"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="20"
+               VerticalOptions="CenterAndExpand"
+               Margin="10"/>
+        
+        <Label Text="Start Date"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="20"
+               VerticalOptions="CenterAndExpand"
+               Margin="10"/>
+
+        <Entry x:Name="EntryStartDate"
+               Placeholder="Enter Start Date"
+               VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center"
+               BackgroundColor="Bisque"
+               TextColor="Black"/>
+        
+        <Label Text="End Date"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="20"
+               VerticalOptions="CenterAndExpand"
+               />
+        
+        <Entry x:Name="EntryEndDate"
+               Placeholder="Enter End Date"
+               VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center"
+               BackgroundColor="Bisque"
+               TextColor="Black"
+               Margin="10"/>
+
+        <Label Text="Earthquake Size (1-10)"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="20"
+               VerticalOptions="CenterAndExpand"
+               Margin="10"/>
+
+        <Entry x:Name="EntryEarthquakeSize"
+               Placeholder="Earthquake Size"
+               VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center"
+               Margin="10"
+               BackgroundColor="Bisque"
+               TextColor="Black"/>
+
+        <Button x:Name="BtnFind"
+                Text="Find"
+                TextColor="DarkRed"
+                Padding="30"
+                VerticalOptions="CenterAndExpand"
+                Clicked="BtnFind_Clicked"
+                Margin="10"/>
+
+    </StackLayout>
+
+</ContentPage>
